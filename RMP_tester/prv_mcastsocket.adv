@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE jxta:PipeAdvertisement>
+<jxta:PipeAdvertisement xmlns:jxta="http://jxta.org">
+	<Id>
+		urn:jxta:uuid-59616261646162614E5047205032503393B5C2F6CA7A41FDB0F890173088E79404
+	</Id>
+	<Type>
+		JxtaPropagate
+	</Type>
+	<Name>
+		Private multicast socket for JxtaRealibleMcastService
+	</Name>
+</jxta:PipeAdvertisement>
