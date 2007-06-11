@@ -1,45 +1,251 @@
-<html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
 <head>
-<title>Project Home Page</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Reliable Multicast Pipes</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000">
-<h1>Default project home page </h1>
-<p>Congratulations on your new java.net project! </p>
-<p>This page is the home page for your new project. This content is appearing 
-  because you have selected the option <b>Use project index.html</b>. To edit 
-  the information displayed on this page, just use CVS to check out your project's 
-  CVS repository and edit index.html in directory www. You can get more information 
-  on how to set-up your local CVS client, click on <b>Version Control</b> on the 
-  left nav bar. </p>
-<p>If you don't want to use CVS to manage your home page, click on the <b>Edit 
-  project</b> link on this page and unclick the option <b>Use project index.html</b>. 
-  Your project home page contents will be generated from the <b>Edit project</b> 
-  field <b>Description</b>. Edit the text on that field to change your home page 
-  contents. Click on <b>Submit changes</b> to save your edits. </p>
-<p>If you are looking for <a href="https://java-net.dev.java.net/ProjectPages.html#templates">sample 
-  home page templates</a>, check out the <a href="https://java-net.dev.java.net/ProjectPages.html">java.net 
-  Project Starter Kit</a>. Copy either of the templates into your project's html 
-  to get started on your project's home page. </p>
-<p>You can find lots of helpful information in the Starter Kit to get your project 
-  started. Some of the things you will find in there include:</p>
-<ul>
-  <li>Hints on how to <a href="https://java-net.dev.java.net/ProjectPages.html#pages">set-up 
-    your project's</a> home page</li>
-  <li>Ideas on how to <a href="https://java-net.dev.java.net/ProjectPages.html#publicity">publicize 
-    your project</a> including RSS feeds</li>
-  <li>Hints on <a href="https://java-net.dev.java.net/pagedesign.html">project 
-    page HTML</a></li>
-  <li>Setting up project <a href="https://java-net.dev.java.net/ProjectPages.html#wiki">wiki 
-    pages</a></li>
-  <li>And places to go if <a href="https://java-net.dev.java.net/ProjectPages.html#feedback">you 
-    have questions</a>.</li>
-</ul>
-<p>Remember that you will attract more new members and your project team will 
-  work more effectively if you, as the project owner, supply sufficient information 
-  about your project for visitors to your project space. Good luck with your new 
-  project! </p>
-</body>
-</html>
+<body>
 
+<p class="MsoNormal" align="center">&nbsp;</p>
+<div align="center">
+<table border="2" id="table1">
+	<tr>
+		<td bgcolor=#0037AA><b><font size="6" color="#0000FF">&nbsp;&nbsp; </font>
+		<font size="6"><font color="#FFFFFF">Reliable Multicast Pipes</font> </font>
+		<font size="6" color="#0000FF">&nbsp;&nbsp;&nbsp; </font> </b></td>
+	</tr>
+</table>
+</div>
+<p class="MsoNormal" align="center">&nbsp;</p>
+
+<div align=center><table border="0" width="60%" id="table2">
+    <tr><td height="144"><p class="MsoNormal" align="center">
+<img border="0" src="index_files/pipes.gif" width="160" height="120" align="left"></p></td>
+		<td height="144"> 
+		<p class="MsoNormal" align="right">
+<img border="0" src="index_files/sun_jxta.gif" width="162" height="126" align="right"></p></td></tr>
+	<tr>
+		<td bgcolor=#FFFFCC colspan=2>
+		<p class="MsoNormal"><b><span lang="EN-US"><u><font size="4">Introduction</font></u><font size="4">
+		<a href="#Main_theme">(skip intro)</a></font></span></b></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><span lang="EN-US">The JXTA open network computing platform 
+is designed for peer-to-peer (P2P) computing and enables application developers 
+to build and deploy interoperable services and content. The platform is divided 
+in three layers:</span></p>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Platform layer (essential 
+	primitives : peer groups, peer discovery, peer communication, peer 
+	monitoring etc )</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Services ( not operational 
+	necessary but common and desirable : indexing, directory, storage, file 
+	sharing etc)</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Applications (&nbsp; P2P instant 
+	messaging, P2P email systems etc)&nbsp;&nbsp;&nbsp; (....more)</span></li>
+		</ul>
+		<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><span lang="EN-US">The platform layer provides some very 
+important peer group [core] services:</span></p>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Discovery service</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Membership service</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Access service</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Pipe service</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Resolver service</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Monitoring service (sometimes 
+	called the “purines” service)</span></li>
+		</ul>
+		<ul style="margin-top: 0cm; margin-bottom: 0cm" type="disc">
+			<li class="MsoNormal"><span lang="EN-US">Rendezvous service</span></li>
+		</ul>
+		<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><span lang="EN-US">JXTA provides an abstract transport 
+layer through the endpoint service that is independent of the underlying network 
+transport layers [there are many implementations even for Bluetooth transport].
+		</span></p>
+		<p class="MsoNormal"><span lang="EN-US">Peers, use the Pipe Service to exchange 
+messages [Pipe = a virtual link between 2 or more (for propagate type) peers ]. 
+Pipes beneath are using endpoint Messengers for sending – receiving messages for 
+each hop of the virtual&nbsp; channel.</span></p>
+		<p class="MsoNormal"><span lang="EN-US">Multicasting in JXTA is implemented in a 
+different way.</span></p>
+		<p class="MsoNormal"><span lang="EN-US">Firstly we have to understand the 
+difference between propagation of a message and multicasting. Multicasting is a 
+very popular term, and it has a very strict meaning. It uses UDP to send a 
+message to a Multicast Group [IP class D address] and everyone that is joined to 
+that receive the message. Propagation is a mechanism of JXTA that is used to 
+send messages to multiple peers of a peer group and is built on top of the 
+rendezvous service and is implemented inside the pipe service [propagate pipes].
+		</span></p>
+		<p class="MsoNormal"><span lang="EN-US">The correlation between 
+		Multicasting &amp; propagation is that propagate pipes are using sometimes multicast 
+		packets to send 
+messages to the LAN, in case that some peers of the same peer group exist inside the same LAN. That’s it, multicasting 
+		is not used in JXTA except on the 
+special occasion that was previously discussed. </span></p>
+		<p class="MsoNormal"><span lang="EN-US">In terms of JXTA multicasting 
+		most of the times has the meaning of sending a message to multiple 
+		recepients through propagate pipes </span><span lang="EN-GB">and more 
+		rarely the multicasting of messages inside the LAN.</span></p>
+		<p>&nbsp;</td>
+	</tr>
+	<tr>
+		<td bgcolor=#FFCC99 colspan=2>
+		<p class="MsoNormal" align="left">&nbsp;</p>
+		<p class="MsoNormal" align="left"><b><u><span lang="EN-US">
+		<font size="4"><a name="Main_theme">Main theme</a></font></span></u></b></p>
+		<p class="MsoNormal" align="left">&nbsp;</p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;In project Reliable Multicast Pipes 
+(RMP ) the objective is to build a service that will reliably 
+send messages [in order, without losses etc.] through the existing transport of JXTA, to multiple </span><span lang="EN-GB">recipient</span><span lang="EN-US">s.
+		</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;If someone uses a packet sniffer to 
+monitor the messages that are sent when a JXTA application is running, he will 
+notice that the majority of the packets that are exchanged between the peers 
+(under and not over the JXTA transport layer) use TCP and only a few of them use 
+UDP [only for multicasting inside the LAN].&nbsp; </span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;One might think that it is very strange 
+to talk about reliability if TCP is used as the transport protocol, because of 
+		the reliable nature of the last. &nbsp;A simple example might be helpful for 
+		understanding the need for such a reliable protocol :</span></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><span lang="EN-GB">Let us suppose that we have peers A, B and C. &nbsp;</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">A and C can only communicate through 
+peer B. </span></p>
+		<p class="MsoNormal"><span lang="EN-GB">If A has a reliable connection to B 
+[e.g. TCP] and C has a reliable connection to B then a message sent from A to C 
+going through B could still be lost if&nbsp; B fails to deliver to C a message 
+received from A. </span></p>
+		<p class="MsoNormal"><span lang="EN-GB">B could discard the message due to load 
+issues, buffer space, quota management etc. The most common reason is that C 
+didn’t ask for its messages in a timely manner and&nbsp; B discarded the message and A will never 
+know that C didn’t get the message since end2end ACK/NACK is not used [not 
+supported for propagate pipes]. </span></p>
+		<p class="MsoNormal"><span lang="EN-GB">So, reliable transmission would involve 
+the creation of a buffer space which would be helpful in the case of message 
+		losses.</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">That is what JxtaSocket does when reliable = true 
+		is specified. All messages are saved until ACKed [similarly for 
+JxtaBiDiPipes also]. </span></p>
+		<p class="MsoNormal"><span lang="EN-GB">The problem is the lack of a protocol – 
+service – mechanism for reliable transmission for propagating messages. </span>
+		</p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><span lang="EN-GB"><u>This is exactly the objective 
+		of the RMP project</u> :</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">Reliable transmission of messages to 
+multiple receivers using JxtaMulticastSockets (one of the same with propagate 
+pipes), inside a peer group.</span></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><span lang="EN-GB">The way RMP works is influenced by the 
+TRAM protocol of JRMS.</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">A quick preview of the algorithm follows 
+:</span></p>
+		<ol style="margin-top: 0cm; margin-bottom: 0cm" start="1" type="1">
+			<li class="MsoNormal"><span lang="EN-GB">New node wants to join a 
+	“multicast” channel:</span>
+			<ol style="margin-top: 0cm; margin-bottom: 0cm" start="1" type="a">
+				<li class="MsoNormal"><span lang="EN-GB">creates a private 
+		JxtaMutlicastSocket to send query message</span></li>
+				<li class="MsoNormal"><span lang="EN-GB">creates a query datagram 
+		containing the channel of interest. This BiDiPipe is going to be used 
+		[with reliable=true] to receive the messages from the root 
+		node in a reliable way.</span></li>
+				<li class="MsoNormal"><span lang="EN-GB">sends [propagates] the query 
+		datagram to the root nodes/peers that are listening.</span></li>
+			</ol></li>
+			<li class="MsoNormal"><span lang="EN-GB">Root node listens on a predefined 
+	JxtaMulticastSocket</span>
+			<ol style="margin-top: 0cm; margin-bottom: 0cm" start="1" type="a">
+				<li class="MsoNormal"><span lang="EN-GB">a root node acts as a 
+		forwarder and as a repair head </span>
+				<span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman">
+				when message losses do occur.</span></li>
+				<li class="MsoNormal"><span lang="EN-GB">root node receives a 
+				query datagram from a peer that wishes to join.</span></li>
+				<li class="MsoNormal"><span lang="EN-GB">responses are unicasted back to 
+		querying peers </span></li>
+			</ol></li>
+		</ol>
+		<p class="MsoNormal" style="text-indent: -108.0pt; margin-left: 108.0pt">
+		<span lang="EN-GB"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		</span>i.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span>provided threshold is not exceeded because a root node can have only a 
+predefined number of “children”/peers&nbsp; attached to it</span></p>
+		<p class="MsoNormal" style="text-indent: -108.0pt; margin-left: 108.0pt">
+		<span lang="EN-GB"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		</span>ii.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span>root node has already created a JxtaServerPipe and it’s pipeID is also 
+included inside the response.</span></p>
+		<ol style="margin-top: 0cm; margin-bottom: 0cm" start="3" type="1">
+			<li class="MsoNormal"><span lang="EN-GB">The querying node picks a root node to 
+	attach to, and caches some responses for failover purposes</span>
+			<ol style="margin-top: 0cm; margin-bottom: 0cm" start="1" type="a">
+				<li class="MsoNormal"><span lang="EN-GB">If the querying node fails to 
+		receive responses within a specified timeout, it self designates as a 
+		root, and listens on the predefined root node's JxtaMulticastSocket</span></li>
+				<li class="MsoNormal"><span lang="en-gb">U</span><span lang="EN-GB">sing the pipeID of the 
+		response of the root node , querying node connects its JxtaBiDiPipe to 
+		the JxtaServerPipe so that both (querying and root node) can exchange reliably messages in 
+				both 
+		directions.</span></li>
+			</ol></li>
+		</ol>
+		<p class="MsoNormal"><span lang="EN-GB">&nbsp;</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">Every node that has the RMP service 
+		running, 
+		uses a kind of message storage [like a buffer] to hold the history of 
+messages that are received. If the node happens to be a root node then the 
+buffer must be of greater capacity. </span></p>
+		<p class="MsoNormal"><span lang="EN-GB">Every message has some meta-fields 
+indicating information like sender id, channel ID, sequence number&nbsp; etc. 
+		</span></p>
+		<p class="MsoNormal"><span lang="EN-GB">Let us suppose that a peer/node&nbsp; happens to loose a 
+message, e.g. receives messages with seq_nums&nbsp; #100, #101, #103, #104, #105&nbsp; 
+[#102 is lost]. Given that it doesn’t receive #102 after #window_size &nbsp;receipts&nbsp; occur, 
+		it sends a NACK with the sequence number of the lost message to the root 
+node that the peer is attached to. If root doesn’t have msg #102 it sends in 
+		turn also a request for to its own root/parent. This procedure continues recursively till 
+		a request reaches the 
+original sender. This way the sender doesn’t get overwhelmed with ACKs from 
+receivers and the network is not over-utilized because a great portion of 
+retransmissions is done by the local repair heads, the root nodes.</span></p>&nbsp;</td>
+	</tr>
+</table>
+	<p>&nbsp;
+
+</body>
+
+</html>
